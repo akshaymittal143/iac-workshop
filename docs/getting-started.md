@@ -29,13 +29,14 @@ Please follow these steps:
 ---
 
 ### Quick setup using a script:
+- this script will check if not install everything we need for the workshop
 - open a terminal & execute this commands
 ```bash
 $ git clone https://github.com/akshaymittal143/iac-workshop.git
 $ cd iac-workshop
 $ docs/config.sh
 ```
-
+- should install any missing tools we need. (note: tested on mac)
 #### Resources: 
 - Windows user: [how to Install bash on windows](https://itsfoss.com/install-bash-on-windows/)
 
