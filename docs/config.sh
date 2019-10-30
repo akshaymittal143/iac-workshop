@@ -158,7 +158,7 @@ function check_aws() {
 function check_terra_config() {
 
   echo -e "${LPURP}***** Check  for terraform.tfvars file *****${NC}"
-  if [ ! -f ${PWD}/challenge1/terraform.tfvars.example ]; then
+  if [ ! -f ${PWD}/chap1/terraform.tfvars ]; then
     echo -e "${YELLOW}"
     echo "${PWD}/terraform/aws/terraform.tfvars not found!"
     echo "Amazon AWS won't work right."
@@ -172,7 +172,7 @@ function check_terra_config() {
     ERROR_COUNTER=$((ERROR_COUNTER + 1))
   else
     echo -e "${CYAN}"
-    echo "Found tfvars file in ${PWD}/challenge1/terraform.tfvars"
+    echo "Found tfvars file in ${PWD}/chap1/terraform.tfvars"
     echo -e "${NC}"
   fi
 }
