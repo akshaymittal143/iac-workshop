@@ -51,5 +51,6 @@ $ docs/config.sh
 this script is tested on linux.
 #### Resources: 
 - Windows user: [how to Install bash on windows](https://itsfoss.com/install-bash-on-windows/)
+- Recommended IDE: [VS Code](https://code.visualstudio.com/) with [terraform plugin](https://marketplace.visualstudio.com/items?itemName=mauve.terraform)  
 
 any further questions: reach me out on `akshaymittalemail@gmail.com`
