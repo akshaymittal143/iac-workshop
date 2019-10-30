@@ -37,8 +37,9 @@ Please follow these steps:
 5. then click `Download Key File`
 6. open downloaded file i.e `rootkey.csv`
 7. copy `AWS_ACCESS_KEY_ID` & `AWS_SECRET_ACCESS_KEY` values
-8. paste in [terraform.tfvars](../challenge1/terraform.tfvars.example) (you will need to clone this repo) or you may also make a note of `id` and `secert` for the workshop
-9. rename `terraform.tfvars.example` to `terraform.tfvars`
+8. paste in [terraform.tfvars](../chap1/terraform.tfvars.example) (you will need to clone this repo) or you may also make a note of `id` and `secert` for the workshop
+9. rename `terraform.tfvars.example` to `terraform.tfvars`  
+reading : [aws credentials](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)
 ---
 
 ### verification using the script:
