@@ -52,5 +52,6 @@ this script is tested on linux.
 #### Resources: 
 - Windows user: [how to Install bash on windows](https://itsfoss.com/install-bash-on-windows/)
 - Recommended IDE: [VS Code](https://code.visualstudio.com/) with [terraform plugin](https://marketplace.visualstudio.com/items?itemName=mauve.terraform)  
+- Basic knowledge about cloud(IaaS, PaaS, etc) is recommended but not required for workshop. 
 
 any further questions: reach me out on `akshaymittalemail@gmail.com`
