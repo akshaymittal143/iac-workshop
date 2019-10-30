@@ -1,1 +1,13 @@
-.idea
+# Compiled files
+*.tfstate
+*.tfstate.backup
+
+# Module directory
+.terraform/
+
+# This has some private key info
+terraform/aws/terraform.tfvars
+#
+.terraform.tfstate.lock.info
+
+*.log
