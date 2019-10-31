@@ -1,2 +1,2 @@
 key_name="MyKeyPair"
-private_key_path="../MyKeyPair.pem"
+private_key_path="./MyKeyPair.pem"

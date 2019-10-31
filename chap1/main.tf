@@ -1,3 +1,7 @@
+##################################################################################
+# VARIABLES
+##################################################################################
+
 variable "region" {
   default = "us-east-2"
 }
@@ -8,12 +12,25 @@ variable "security_group_name" {
   default = "terraform-example-instance"
 }
 
+
+##################################################################################
+# PROVIDERS
+##################################################################################
+
 provider "aws" {
   region = var.region
 }
 
+
+##################################################################################
+# RESOURCES
+##################################################################################
+
+# SECURITY GROUP #
 resource "aws_security_group" "instance" {
   name = var.security_group_name
+
+  # 8080 port access
   ingress {
     from_port = 8080
     to_port = 8080
@@ -23,6 +40,7 @@ resource "aws_security_group" "instance" {
   }
 }
 
+# aws ec2 instance
 resource "aws_instance" "example" {
   ami = "ami-0c55b159cbfafe1f0"
   instance_type = "t2.micro"
@@ -38,6 +56,10 @@ resource "aws_instance" "example" {
     Name = "terraform-example"
   }
 }
+
+##################################################################################
+# OUTPUT
+##################################################################################
 
 output "public_ip" {
   value = aws_instance.example.public_ip
