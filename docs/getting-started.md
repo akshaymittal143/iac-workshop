@@ -37,7 +37,7 @@ docs/config.sh
 
 Goal is to get `AWS_ACCESS_KEY_ID` & `AWS_SECRET_ACCESS_KEY` from AWS to gain programmatical access from AWS CLI. 
 
-- [How do I get AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY for Amazon](./aws-key-and-secret.md) with pictures.
+- [How do I get AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY from AWS Amazon](./aws-key-and-secret.md) with pictures.
 
 AWS Amazon blog : [aws credentials](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)
 
