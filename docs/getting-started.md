@@ -35,19 +35,13 @@ docs/config.sh
 
 ## Part 3: Config credentials [*this is Important*]
 
-- Goal is to get `AWS_ACCESS_KEY_ID` & `AWS_SECRET_ACCESS_KEY` from AWS to gain programmatical access from AWS CLI.  
-  Please follow these steps:
+Goal is to get `AWS_ACCESS_KEY_ID` & `AWS_SECRET_ACCESS_KEY` from AWS to gain programmatical access from AWS CLI. 
 
-1. log in to AWS account by <https://console.aws.amazon.com/>
-2. for the first time should take you to IAM dashboard if not [click me](https://console.aws.amazon.com/iam/home#/security_credentials)
-3. hit continue to look for option `Access keys (access key ID and secret access key)`
-4. click `Create New Access Key`
-5. then click `Download Key File`
-6. open downloaded file i.e `rootkey.csv`
-7. copy `AWS_ACCESS_KEY_ID` & `AWS_SECRET_ACCESS_KEY` values
-8. paste in [terraform.tfvars](../chap1/terraform.tfvars.example) (you will need to clone this repo) or you may also make a note of `id` and `secert` for the workshop
-9. rename `terraform.tfvars.example` to `terraform.tfvars`  
-   reading : [aws credentials](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)
+- [How do I get AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY for Amazon](./aws-key-and-secret.md) with pictures.
+
+AWS Amazon blog : [aws credentials](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)
+
+*Note*: you need to copy & paste values in [terraform.tfvars](../chap1/terraform.tfvars) to m
 
 ---
 

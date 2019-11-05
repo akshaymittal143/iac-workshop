@@ -19,14 +19,14 @@ charges you may incur.**
 
 Configure your [AWS access 
 keys](http://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys) as 
-tfvars in [terraform.tfvars](./terraform.tfvars.example) file :
+tfvars in [terraform.tfvars](./terraform.tfvar) file :
 
 ```
 aws_access_key="ENTER_YOUR_KEY_HERE"
 aws_secret_key="ENTER_YOUR_SECRET_HERE"
 ```
 
-then change file name to `terraform.tfvars` from `terraform.tfvars.example`
+then change file name to `terraform.tfvars` from `terraform.tfvars`
 
 Deploy the code:
 
