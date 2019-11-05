@@ -10,7 +10,7 @@
 
 > or
 
-### Quick setup of part 1 using a script
+### Quick setup of part 1 using a script :computer:
 
 - this script will check for anything not installed that we need for the workshop and install it
 - open a terminal & execute this commands (tested on mac)
@@ -41,7 +41,7 @@ Goal is to get `AWS_ACCESS_KEY_ID` & `AWS_SECRET_ACCESS_KEY` from AWS to gain pr
 
 AWS Amazon blog : [aws credentials](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)
 
-*Note*: you need to copy & paste values in [terraform.tfvars](../chap1/terraform.tfvars) to m
+*Note*: :blue_book: you need to copy & paste values in [terraform.tfvars](../chap1/terraform.tfvars) to deploy terraform configuration in Amazon AWS cloud :cloud:
 
 ---
 
@@ -65,4 +65,4 @@ this script is tested on linux.
 - Recommended IDE: [VS Code](https://code.visualstudio.com/) with [terraform plugin](https://marketplace.visualstudio.com/items?itemName=mauve.terraform) or [atom](https://atom.io/) , etc
 - Basic knowledge about cloud(IaaS, PaaS, etc) is recommended but not required for workshop.
 
-any further questions: reach me out on `akshaymittalemail@gmail.com`
+any further questions: reach me out on `akshaymittalemail@gmail.com` :email:
