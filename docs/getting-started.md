@@ -45,7 +45,7 @@ AWS Amazon blog : [aws credentials](https://docs.aws.amazon.com/general/latest/g
 
 ---
 
-### verification using the script
+### verification using the script :mag_right:
 
 - open a terminal & execute this commands
 
@@ -57,7 +57,7 @@ cd iac-workshop
 docs/config.sh
 ```
 
-this script is tested on linux.
+this script is tested on linux. :white_check_mark:
 
 #### Resources
 
