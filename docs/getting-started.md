@@ -2,7 +2,7 @@
 
 ## Part 1: Pre-requisites
 
-- You must bring a laptop with support for bash i.e Linux, MacOS, or Windows 10 with Windows Subsystem for Linux installed are all fine. Alternatively, you can stand up a virtual Linux box using a tool such as [VirtualBox](https://www.virtualbox.org/).
+- You must bring a laptop :computer: with support for bash i.e Linux, MacOS, or Windows 10 with Windows Subsystem for Linux installed are all fine. Alternatively, you can stand up a virtual Linux box using a tool such as [VirtualBox](https://www.virtualbox.org/). :inbox_tray:
 - You must be comfortable using the shell / command-line.
 - Please install this BEFORE coming to the workshop.  
     1. [AWS CLI](https://aws.amazon.com/cli/)  
@@ -33,7 +33,7 @@ docs/config.sh
 
 ---
 
-## Part 3: Config credentials [*this is Important*]
+## Part 3: Config credentials [*this is Important*]  :key: :lock:
 
 Goal is to get `AWS_ACCESS_KEY_ID` & `AWS_SECRET_ACCESS_KEY` from AWS to gain programmatical access from AWS CLI. 
 
@@ -41,7 +41,7 @@ Goal is to get `AWS_ACCESS_KEY_ID` & `AWS_SECRET_ACCESS_KEY` from AWS to gain pr
 
 AWS Amazon blog : [aws credentials](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)
 
-*Note*: :blue_book: you need to copy & paste values in [terraform.tfvars](../chap1/terraform.tfvars) to deploy terraform configuration in Amazon AWS cloud :cloud:
+*Note*: :blue_book: you need to copy & paste values in [terraform.tfvars](../chap1/terraform.tfvars) to deploy terraform configuration in Amazon AWS :cloud:
 
 ---
 
