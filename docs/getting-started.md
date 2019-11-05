@@ -20,7 +20,7 @@ git clone https://github.com/akshaymittal143/iac-workshop.git
 
 cd iac-workshop  
 
-docs/config.sh
+sh docs/config.sh
 ```
 
 ---
@@ -54,7 +54,7 @@ git clone https://github.com/akshaymittal143/iac-workshop.git
 
 cd iac-workshop
 
-docs/config.sh
+sh docs/config.sh
 ```
 
 this script is tested on linux. :white_check_mark:
