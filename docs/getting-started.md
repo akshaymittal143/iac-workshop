@@ -28,8 +28,7 @@ sh docs/config.sh
 ## Part 2: Create a free AWS account
 
 - How to create AWS account, please review -> [free AWS account](https://aws.amazon.com/free/)
-- If you already have AWS account, create a new one for free services or you may use your existing one but _Note_
-  you might be charged for use of service. (should be very less)
+- If you already have AWS account, create a new one for free services or you may use your existing one.  
 
 ---
 
