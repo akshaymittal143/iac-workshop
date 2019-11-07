@@ -61,6 +61,7 @@ this script is tested on linux. :white_check_mark:
 #### Resources
 
 - Windows user: [how to Install bash on windows](https://itsfoss.com/install-bash-on-windows/) or [windows sub-system](https://docs.microsoft.com/en-us/windows/wsl/install-win10#install-the-windows-subsystem-for-linux)
+- Setup `Terraform` for [windows users](https://techcommunity.microsoft.com/t5/Azure-Developer-Community-Blog/Configuring-Terraform-on-Windows-10-Linux-Sub-System/ba-p/393845)
 - Recommended IDE: [VS Code](https://code.visualstudio.com/) with [terraform plugin](https://marketplace.visualstudio.com/items?itemName=mauve.terraform) or [atom](https://atom.io/) , etc
 - Basic knowledge about cloud(IaaS, PaaS, etc) is recommended but not required for workshop.
 - You may use this workshop Live [slides](https://slides.com/akshaymittal/iac-workshop/live#/) to follow along. :bowtie: :tv: (useful for copy & paste commands save :watch:)
