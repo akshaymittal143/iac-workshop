@@ -2,7 +2,7 @@
 
 ## Part 1: Pre-requisites
 
-- You must bring a laptop :computer: with support for bash i.e Linux, MacOS, or Windows 10 with Windows Subsystem for Linux installed are all fine. Alternatively, you can stand up a virtual Linux box using a tool such as [VirtualBox](https://www.virtualbox.org/). :inbox_tray:
+- You must bring a laptop :computer: with support for bash i.e Linux, MacOS, or Windows 10 with Windows [Subsystem](https://docs.microsoft.com/en-us/windows/wsl/install-win10#install-the-windows-subsystem-for-linux) for Linux installed are all fine. Alternatively, you can stand up a virtual Linux box using a tool such as [VirtualBox](https://www.virtualbox.org/). :inbox_tray:
 - You must be comfortable using the shell / command-line.
 - Please install this BEFORE coming to the workshop.  
     1. [AWS CLI](https://aws.amazon.com/cli/)  
@@ -60,7 +60,7 @@ this script is tested on linux. :white_check_mark:
 
 #### Resources
 
-- Windows user: [how to Install bash on windows](https://itsfoss.com/install-bash-on-windows/)
+- Windows user: [how to Install bash on windows](https://itsfoss.com/install-bash-on-windows/) or [windows sub-system](https://docs.microsoft.com/en-us/windows/wsl/install-win10#install-the-windows-subsystem-for-linux)
 - Recommended IDE: [VS Code](https://code.visualstudio.com/) with [terraform plugin](https://marketplace.visualstudio.com/items?itemName=mauve.terraform) or [atom](https://atom.io/) , etc
 - Basic knowledge about cloud(IaaS, PaaS, etc) is recommended but not required for workshop.
 - You may use this workshop Live [slides](https://slides.com/akshaymittal/iac-workshop/live#/) to follow along. :bowtie: :tv: (useful for copy & paste commands save :watch:)
